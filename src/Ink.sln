@@ -1,11 +1,52 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger.Schema", "lib\Logger\Ink.Logger.Schema\Ink.Logger.Schema.csproj", "{64ECEB19-B31C-90D6-E95E-5D1594DFC45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger", "lib\Logger\Ink.Logger\Ink.Logger.csproj", "{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{E99308D9-8145-461A-93CC-6D9BE247775B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger.Console", "lib\Logger\Ink.Logger.Console\Ink.Logger.Console.csproj", "{BE159582-8A36-9289-0971-0166D29A1508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger.File", "lib\Logger\Ink.Logger.File\Ink.Logger.File.csproj", "{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64ECEB19-B31C-90D6-E95E-5D1594DFC45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ECEB19-B31C-90D6-E95E-5D1594DFC45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ECEB19-B31C-90D6-E95E-5D1594DFC45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ECEB19-B31C-90D6-E95E-5D1594DFC45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE159582-8A36-9289-0971-0166D29A1508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE159582-8A36-9289-0971-0166D29A1508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE159582-8A36-9289-0971-0166D29A1508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE159582-8A36-9289-0971-0166D29A1508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64ECEB19-B31C-90D6-E95E-5D1594DFC45E} = {E99308D9-8145-461A-93CC-6D9BE247775B}
+		{F2DC0CE9-6DE6-8671-420D-D2D4EDD97E86} = {E99308D9-8145-461A-93CC-6D9BE247775B}
+		{E99308D9-8145-461A-93CC-6D9BE247775B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BE159582-8A36-9289-0971-0166D29A1508} = {E99308D9-8145-461A-93CC-6D9BE247775B}
+		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441} = {E99308D9-8145-461A-93CC-6D9BE247775B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01B41D92-7EC0-4F5A-B884-579D9CC7E765}
