@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger.Console", "lib\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Logger.File", "lib\Logger\Ink.Logger.File\Ink.Logger.File.csproj", "{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Sandbox", "sandbox\Ink.Sandbox.csproj", "{D483248E-E7EA-468D-A927-B021F3733A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF45B5D-1016-FFC3-82E7-2B5DAC29D441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D483248E-E7EA-468D-A927-B021F3733A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D483248E-E7EA-468D-A927-B021F3733A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D483248E-E7EA-468D-A927-B021F3733A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D483248E-E7EA-468D-A927-B021F3733A26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
